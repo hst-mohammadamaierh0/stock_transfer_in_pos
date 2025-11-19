@@ -61,6 +61,6 @@
     'images': ['static/description/banner.jpg'],
 
     'installable': True,
-    'application': True,
+    'application': False,
     'auto_install': False,
 }
