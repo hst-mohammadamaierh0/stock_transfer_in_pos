@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form_scrap_pos" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.stock.scrap.pos</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//block[@id='pos_interface_section']" position="after">
+
+                <!-- STOCK TRANSFER -->
+                <block title="Stock Transfer">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="is_stock_transfer"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="is_stock_transfer"/>
+                            <div class="text-muted">
+                                Allow POS users to create stock transfers directly from the POS.
+                            </div>
+                        </div>
+                    </div>
+                </block>
+
+                <!-- SCRAP BEHAVIOR CHECKBOX -->
+                <block title="Scrap Behavior">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="scrap_conditional"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="scrap_conditional"/>
+                            <div class="text-muted">
+                                If enabled: scraps without stock remain draft.<br/>
+                                If disabled: strict validation requires available stock.
+                            </div>
+                        </div>
+                    </div>
+                </block>
+
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

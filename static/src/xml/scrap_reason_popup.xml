@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="ScrapReasonPopup" owl="1">
+        <div class="popup popup-text popup-med">
+            
+            <h2 class="p-3">Scrap Product</h2>
+
+            <center>
+                <label>Reason:</label>
+                <select t-ref="reason"
+                        style="width:300px;height:35px;border-radius:5px;">
+                    <option value="Destruction">Destruction</option>
+                    <option value="consumption">consumption</option>
+                </select>
+            </center>
+
+            <div class="footer pb-3 mt-4">
+                <button class="button btn btn-lg btn-primary"
+                        t-on-click="applyScrap">
+                    Confirm
+                </button>
+                <button class="button cancel btn btn-lg btn-secondary"
+                        t-on-click="cancel">
+                    Cancel
+                </button>
+            </div>
+
+        </div>
+    </t>
+</templates>
