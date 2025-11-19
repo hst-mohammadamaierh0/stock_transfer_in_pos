@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    
+    <t t-name="ScrapButton" owl="1">
+        <div class="control-button btn btn-danger rounded-0 fw-bolder"
+             t-on-click="onClick">
+            <span>Scrap</span>
+        </div>
+    </t>
+
+    
+    <t t-name="ScrapOrdersButton" owl="1">
+        <div class="control-button btn btn-info rounded-0 fw-bolder"
+             t-on-click="onClick">
+            <span>Scrap Orders</span>
+        </div>
+    </t>
+
+</templates>

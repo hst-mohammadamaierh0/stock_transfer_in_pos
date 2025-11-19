@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="ScrapSuccessPopup" owl="1">
+        <div class="popup popup-text popup-med">
+            <h2 class="p-3">Scrap Created</h2>
+            <p><t t-esc="props.body"/></p>
+
+            <div class="footer pb-3">
+                <button class="button btn btn-secondary"
+                        t-on-click="cancel">
+                    OK
+                </button>
+            </div>
+        </div>
+    </t>
+</templates>
