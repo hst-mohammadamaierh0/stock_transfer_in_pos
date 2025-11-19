@@ -35,26 +35,26 @@
         'point_of_sale._assets_pos': [
 
             
-            '/static/src/xml/stock_transfer_button.xml',
-            '/static/src/xml/transfer_create_popup.xml',
-            '/static/src/xml/transfer_ref_popup.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/stock_transfer_button.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/transfer_create_popup.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/transfer_ref_popup.xml',
 
            
-            '/static/src/js/stock_transfer.js',
-            '/static/src/js/transfer_create_popup.js',
-            '/static/src/js/transfer_ref_popup.js',
+            '/stock_transfer_in_pos_code/static/src/js/stock_transfer.js',
+            '/stock_transfer_in_pos_code/static/src/js/transfer_create_popup.js',
+            '/stock_transfer_in_pos_code/static/src/js/transfer_ref_popup.js',
 
             
-            '/static/src/xml/scrap_button.xml',
-            '/static/src/xml/scrap_reason_popup.xml',
-            '/static/src/xml/scrap_success_popup.xml',
-            '/static/src/xml/pos_scrap_orders_screen.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/scrap_button.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/scrap_reason_popup.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/scrap_success_popup.xml',
+            '/stock_transfer_in_pos_code/static/src/xml/pos_scrap_orders_screen.xml',
 
             
-            '/static/src/js/scrap_button.js',
-            '/static/src/js/scrap_reason_popup.js',
-            '/static/src/js/scrap_success_popup.js',
-            '/static/src/js/pos_scrap_orders_screen.js',
+            '/stock_transfer_in_pos_code/static/src/js/scrap_button.js',
+            '/stock_transfer_in_pos_code/static/src/js/scrap_reason_popup.js',
+            '/stock_transfer_in_pos_code/static/src/js/scrap_success_popup.js',
+            '/stock_transfer_in_pos_code/static/src/js/pos_scrap_orders_screen.js',
         ],
     },
 
